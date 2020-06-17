@@ -1,0 +1,19 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comp:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
